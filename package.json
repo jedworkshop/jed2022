@@ -1,0 +1,26 @@
+{
+  "name": "jed2022",
+  "version": "1.0.0",
+  "description": "NLP2022 Workshop on Japanese Evaluation Dataset",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedworkshop/jed2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedworkshop/jed2022/issues"
+  },
+  "homepage": "https://github.com/jedworkshop/jed2022",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "modern-normalize": "^1.1.0"
+  }
+}
