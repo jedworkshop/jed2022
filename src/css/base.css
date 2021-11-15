@@ -1,0 +1,88 @@
+:root {
+    --c-background: #F6EABE;
+    --c-text: #313131;
+    --c-text-link: #3C5186;
+}
+
+body {
+    background-color: var(--c-background);
+    color: var(--c-text);
+}
+
+a {
+    color: var(--c-text-link);
+}
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    font-size: 0.95em;
+    color: var(--c-background);
+    background-color: var(--c-text);
+    padding: 0.5em 0;
+    margin-bottom: 3em;
+}
+header a {
+    color: var(--c-background);
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 4em;
+    margin-bottom: 1em;
+    text-align: center;
+    opacity: 0.8;
+}
+footer a {
+    color: var(--c-text);
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main .subheading {
+    font-size: 1.1em;
+    letter-spacing: 0;
+    font-weight: 900;
+    opacity: 0.8;
+}
+
+main h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-top: 0.5em;
+    text-align: left;
+}
+
+main h2 {
+    margin-top: 3.5em;
+    font-size: 1.4em;
+    border-left: 10px solid var(--c-text);
+    padding-left: 0.4em;
+    border-bottom: 1px solid var(--c-text);
+    padding-top: 0.2em;
+    padding-bottom: 0.3em;
+}
+
+
+main h3 {
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+
+main ul li small {
+    font-size: 0.85em;
+    opacity: 0.9;
+}
