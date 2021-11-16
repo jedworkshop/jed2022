@@ -4,11 +4,19 @@ https://jedworkshop.github.io/jed2022
 
 Source of the "NLP2022 Workshop on Japanese Evaluation Dataset" website.
 
-## Setup & Build
+## How to edit
 
-- Setup: `npm install`
-- Build: `npm run build`
-  - => Static files created under `public/` (which is served by GitHub Pages)
+- Setup
+  - `npm install`
+- Edit
+  - Edit the markdown file `src/index.md`
+- Build
+  - `npm run build`
+  - => Static files created under `docs/`
+- Publish  
+  - Push to the `main` branch of this repository
+  - => Files under `docs/` served as https://jedworkshop.github.io/jed2022 by GitHub Pages
+
 
 ## Dependencies
 
