@@ -97,9 +97,9 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 
 - 2022年3月14日(月)
 
-### 発表受付フォーム
+### 発表申し込みフォーム
 
-(準備中)
+[JED2022の発表申し込みフォーム](https://docs.google.com/forms/d/e/1FAIpQLSfQjhS6afxXJ67wZ4y-nDHWtkkH5BxDjRvURhxPp255TvwIWw/viewform) (Google Accountが必要です)
 
 ### 発表者のNLP2022参加登録について
 
