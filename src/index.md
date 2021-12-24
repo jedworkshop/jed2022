@@ -99,11 +99,11 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 
 ### 発表申し込みフォーム
 
-[JED2022の発表申し込みフォーム](https://docs.google.com/forms/d/e/1FAIpQLSfQjhS6afxXJ67wZ4y-nDHWtkkH5BxDjRvURhxPp255TvwIWw/viewform) (Google Accountが必要です)
+[JED2022の発表申し込みフォーム](https://docs.google.com/forms/d/e/1FAIpQLSfQjhS6afxXJ67wZ4y-nDHWtkkH5BxDjRvURhxPp255TvwIWw/viewform)
 
 ### 発表者のNLP2022参加登録について
 
-JED2022は言語処理学会第28回年次大会(NLP2022)の併設ワークショップとして開催されます．JED2022に参加するにはNLP2022に参加登録（有料）を行う必要があります．NLP2022の参加登録の締切は事前登録は2022/01/11から2022/02/14まで，直前登録は2022/03/11正午までです．
+JED2022は言語処理学会第28回年次大会(NLP2022)の併設ワークショップとして開催されます．JED2022に参加するにはNLP2022に参加登録（有料）を行う必要があります．NLP2022の参加登録は事前登録が2022/01/11から2022/02/14まで，直前登録は2022/03/11正午に締切です．
 
 ## プログラム
 
