@@ -87,3 +87,15 @@ main ul li small {
     font-size: 0.85em;
     opacity: 0.9;
 }
+
+main .heading-anchor {
+    color: var(--c-text);
+    text-decoration-line: none;
+    display: none;
+}
+main h2:hover .heading-anchor {
+    display: inline;
+}
+main h3:hover .heading-anchor {
+    display: inline;
+}

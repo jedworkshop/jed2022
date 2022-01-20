@@ -22,5 +22,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "modern-normalize": "^1.1.0"
+  },
+  "dependencies": {
+    "markdown-it-anchor": "^8.4.1"
   }
 }
