@@ -16,6 +16,42 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 
 また，データセットによる評価の対象として利用されることが多い事前学習モデルについても，その構築過程で得られたノウハウを共有しデータセット構築に活用するためのセッションを設けて議論を深めることで，日本語データセットと事前学習モデルの相補的な発展につなげていきたい．
 
+
+## JED2022ワークショップスポンサー
+
+<div id="sponsors">
+  <a href="https://www.legalscape.co.jp/">
+    <div class="logo">
+      <img src="https://anlp.jp/nlp2022/logo/G08_Legalscape.png">
+    </div>
+  </a>
+  <a href="https://megagon.ai/">
+    <div class="logo">
+      <img src="https://anlp.jp/nlp2022/logo/P02_megagon.jpg">
+    </div>
+  </a>
+  <a href="https://www.legalscape.co.jp/">
+    <div class="logo">
+      <img src="https://anlp.jp/nlp2022/logo/G08_Legalscape.png">
+    </div>
+  </a>
+  <a href="https://megagon.ai/">
+    <div class="logo">
+      <img src="https://anlp.jp/nlp2022/logo/P02_megagon.jpg">
+    </div>
+  </a>
+  <a href="https://www.legalscape.co.jp/">
+    <div class="logo">
+      <img src="https://anlp.jp/nlp2022/logo/G08_Legalscape.png">
+    </div>
+  </a>
+  <a href="https://megagon.ai/">
+    <div class="logo">
+      <img src="https://anlp.jp/nlp2022/logo/P02_megagon.jpg">
+    </div>
+  </a>
+</div>
+
 ## スケジュール
 - 2021/11/25 (木)	JED2022 Webページ開設
 - 2021/12/22 (水)	スケジュール公開
