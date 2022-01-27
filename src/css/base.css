@@ -99,3 +99,36 @@ main h2:hover .heading-anchor {
 main h3:hover .heading-anchor {
     display: inline;
 }
+
+#sponsors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+}
+#sponsors .sponsor-item .logo {
+    width: 240px;
+    height: 240px;
+    margin-top:20px;
+    background-color: #fff;
+    border: 1px solid rgba(31,31, 31, 0.25);
+    border-radius: 12px;
+    padding: 24px;
+    margin: 10px;
+    text-align: center;
+}
+#sponsors .sponsor-item .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#sponsors .sponsor-item a {
+    text-decoration: none;
+}
+#sponsors .sponsor-item:hover .logo {
+    border: 1px solid rgba(31,31, 31, 1);
+}
+#sponsors .sponsor-item:hover a {
+    text-decoration: underline;
+}
