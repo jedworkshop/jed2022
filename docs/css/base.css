@@ -68,7 +68,7 @@ main h1 {
 }
 
 main h2 {
-    margin-top: 3.5em;
+    margin-top: 2.0em;
     font-size: 1.4em;
     border-left: 10px solid var(--c-text);
     padding-left: 0.4em;
@@ -79,7 +79,7 @@ main h2 {
 
 
 main h3 {
-    margin-top: 2em;
+    margin-top: 1.5em;
     font-size: 1.2em;
 }
 
@@ -114,7 +114,7 @@ main h3:hover .heading-anchor {
     background-color: #fff;
     border: 1px solid rgba(31,31, 31, 0.25);
     border-radius: 12px;
-    padding: 20px;
+    padding: 5px;
     margin: 10px;
     text-align: center;
 }
