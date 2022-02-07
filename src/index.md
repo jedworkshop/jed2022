@@ -22,7 +22,19 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
   <div class="sponsor-item">
     <a href="https://www.ninjal.ac.jp/" target="_blank" rel="noreferrer">
       <div class="logo"><img src="img/sponsors/1_ninjal.png"></div>
-      国立国語研究所
+      <div class="text">国立国語研究所</div>
+    </a>
+  </div>
+  <div class="sponsor-item">
+    <a href="https://www.megagon.ai/" target="_blank" rel="noreferrer">
+      <div class="logo"><img src="img/sponsors/2_megagon.jpeg"></div>
+      <div class="text">Megagon Labs</div>
+    </a>
+  </div>
+  <div class="sponsor-item">
+    <a href="https://www.worksap.co.jp/" target="_blank" rel="noreferrer">
+      <div class="logo"><img src="img/sponsors/3_worksap.jpeg"></div>
+      <div class="text">株式会社ワークスアプリケーションズ<br/>・エンタープライズ</div>
     </a>
   </div>
 </div>
