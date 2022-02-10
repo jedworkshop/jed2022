@@ -104,18 +104,20 @@ main h3:hover .heading-anchor {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
 }
+.sponsor-item {
+    margin-bottom: 1.5em;
+}
 #sponsors .sponsor-item .logo {
-    width: 240px;
-    height: 240px;
-    margin-top:20px;
+    width: 290px;
+    height: 290px;
     background-color: #fff;
     border: 1px solid rgba(31,31, 31, 0.25);
     border-radius: 12px;
-    padding: 5px;
-    margin: 10px;
+    padding: 24px;
+    margin: 24px;
     text-align: center;
 }
 #sponsors .sponsor-item .logo img {
@@ -127,7 +129,7 @@ main h3:hover .heading-anchor {
     text-decoration: none;
 }
 #sponsors .sponsor-item .text {
-    font-size: 0.85em;
+    font-size: 0.9em;
 }
 #sponsors .sponsor-item:hover .logo {
     border: 1px solid rgba(31,31, 31, 1);
