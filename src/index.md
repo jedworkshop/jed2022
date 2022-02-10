@@ -24,7 +24,7 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
   </div>
   <div class="sponsor-item">
     <a href="https://www.worksap.co.jp/" target="_blank" rel="noreferrer">
-      <div class="logo"><img src="img/sponsors/3_worksap.jpeg" alt="株式会社ワークスアプリケーションズ・エンタープライズ<"></div>
+      <div class="logo"><img src="img/sponsors/3_worksap.jpeg" alt="株式会社ワークスアプリケーションズ・エンタープライズ"></div>
       <div class="text">株式会社ワークスアプリケーションズ<br/>・エンタープライズ</div>
     </a>
   </div>
