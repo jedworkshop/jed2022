@@ -28,6 +28,12 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
       <div class="text">株式会社ワークスアプリケーションズ<br/>・エンタープライズ</div>
     </a>
   </div>
+  <div class="sponsor-item">
+    <a href="https://www.nvidia.com/ja-jp/" target="_blank" rel="noreferrer">
+      <div class="logo"><img src="img/sponsors/4_nvidia.png" alt="エヌビディア合同会社"></div>
+      <div class="text">エヌビディア合同会社</div>
+    </a>
+  </div>
 </div>
 
 ## 趣旨
