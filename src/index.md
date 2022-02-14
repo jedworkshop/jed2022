@@ -1,10 +1,10 @@
 ---
 title: "日本語における評価用データセットの構築と利用性の向上（JED2022）"
 layout: base.njk
-description: "言語処理学会第28回年次大会 併設ワークショップ"
+description: "言語処理学会第28回年次大会 併設ワークショップ JED2022"
 ---
 
-# JED2022<br/>日本語における評価用データセットの構築と利用性の向上
+# 日本語における評価用データセットの構築と利用性の向上
 2022年3月18日, オンライン開催
 
 ## JED2022ワークショップスポンサー
@@ -12,21 +12,31 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 <div id="sponsors">
   <div class="sponsor-item">
     <a href="https://www.ninjal.ac.jp/" target="_blank" rel="noreferrer">
-      <div class="logo"><img src="img/sponsors/1_ninjal.png"></div>
+      <div class="logo"><img src="img/sponsors/1_ninjal.png" alt="国立国語研究所"></div>
       <div class="text">国立国語研究所</div>
     </a>
   </div>
   <div class="sponsor-item">
     <a href="https://www.megagon.ai/" target="_blank" rel="noreferrer">
-      <div class="logo"><img src="img/sponsors/2_megagon.png"></div>
+      <div class="logo"><img src="img/sponsors/2_megagon.png" alt="Megagon Labs"></div>
       <div class="text">Megagon Labs</div>
     </a>
   </div>
   <div class="sponsor-item">
     <a href="https://www.worksap.co.jp/" target="_blank" rel="noreferrer">
-      <div class="logo"><img src="img/sponsors/3_worksap.jpeg"></div>
+      <div class="logo"><img src="img/sponsors/3_worksap.jpeg" alt="株式会社ワークスアプリケーションズ・エンタープライズ"></div>
       <div class="text">株式会社ワークスアプリケーションズ<br/>・エンタープライズ</div>
     </a>
+  </div>
+  <div class="sponsor-item">
+    <a href="https://www.nvidia.com/ja-jp/" target="_blank" rel="noreferrer">
+      <div class="logo"><img src="img/sponsors/4_nvidia.png" alt="エヌビディア合同会社"></div>
+      <div class="text">エヌビディア合同会社</div>
+    </a>
+  </div>
+  <div class="sponsor-item-blank">
+  </div>
+  <div class="sponsor-item-blank">
   </div>
 </div>
 
