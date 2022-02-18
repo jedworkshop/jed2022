@@ -142,3 +142,8 @@ main h3:hover .heading-anchor {
 #sponsors .sponsor-item:hover a {
     text-decoration: underline;
 }
+
+.expired {
+    color: #777;
+    opacity: 0.5;
+}
