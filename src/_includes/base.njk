@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
-    <link rel="stylesheet" href="{{ './css/base.css' | url }}">
-    <link rel="icon" href="{{ './img/icon.svg' | url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/css/base.css' | url }}">
+    <link rel="icon" href="{{ '/img/icon.svg' | url }}" type="image/svg+xml">
 
     <title>{{ title }} | NLP2022 Workshop on Japanese Evaluation Dataset</title>
 
@@ -22,13 +22,13 @@
     <meta name="twitter:card" content="summary" />
 </head>
 <body>
-    <header>NLP2022 Workshop on Japanese Evaluation Dataset (JED2022)</header>
+    <header><a href="/">NLP2022 Workshop on Japanese Evaluation Dataset (JED2022)</a></header>
     <main>
         <div class="subheading">
             {{ description }}
         </div>
         {{ content | safe }}
     </main>
-    <footer>Copyright &copy; <a href="https://github.com/jedworkshop/">Japanese Evaluation Dataset Workshop. All rights reserved.</a></footer>
+    <footer><a href="https://github.com/jedworkshop/">Copyright &copy; Japanese Evaluation Dataset Workshop. All rights reserved.</a></footer>
 </body>
 </html>
