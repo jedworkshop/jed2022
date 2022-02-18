@@ -153,3 +153,15 @@ main h3:hover .heading-anchor {
     color: #777;
     opacity: 0.5;
 }
+
+ul li {
+    margin-top: 0.6em;
+}
+ul li.talk {
+    list-style-type: "\1F3A4";
+    padding-left: 0.5em;
+}
+ul li.lt {
+    list-style-type: "\26A1";
+    padding-left: 0.5em;
+}
