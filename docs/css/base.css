@@ -76,6 +76,12 @@ main h2 {
     padding-top: 0.2em;
     padding-bottom: 0.3em;
 }
+main h2 a {
+    text-decoration: none;
+}
+main h2 a:hover {
+    text-decoration: underline;
+}
 
 
 main h3 {
@@ -141,4 +147,9 @@ main h3:hover .heading-anchor {
 }
 #sponsors .sponsor-item:hover a {
     text-decoration: underline;
+}
+
+.expired {
+    color: #777;
+    opacity: 0.5;
 }
