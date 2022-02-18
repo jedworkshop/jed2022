@@ -1,5 +1,5 @@
 ---
-title: "JED2022 Call for Papers"
+title: "JED2022 発表募集要項"
 layout: base.njk
 description: "言語処理学会第28回年次大会 併設ワークショップ JED2022 - Call for Papers"
 ---

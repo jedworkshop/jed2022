@@ -1,7 +1,7 @@
 ---
-title: "JED2022 Temporary Program"
+title: "JED2022 仮プログラム"
 layout: base.njk
-description: "言語処理学会第28回年次大会 併設ワークショップ JED2022 - 仮プログラム"
+description: "言語処理学会第28回年次大会 併設ワークショップ JED2022 - 仮プログラム （プログラムの確定は3月初旬の予定）"
 ---
 
 # JED2022 仮プログラム （プログラムの確定は3月初旬の予定）
