@@ -1,0 +1,90 @@
+---
+title: "JED2022 プログラム"
+layout: base.njk
+cssfile: program.css
+description: "言語処理学会第28回年次大会 併設ワークショップ JED2022 - プログラム"
+---
+
+<h1>JED2022 プログラム</h1>
+
+<p>開催日: 2022年3月18日, オンライン開催</p>
+
+<div>
+<small>🎤 一般発表</small><br/>
+<small>⚡ ライトニングトーク</small>
+</div>
+
+
+{%- for divison in program_1 -%}
+<h2>{{ divison.time }} &nbsp; {{ divison.title }}</h2>
+    {%- for session in divison.sessions -%}
+        <div class="session">
+            <div class="session_info">
+                <div class="session_title">{{ session.title }}</div>
+                {%- if session.chair -%}
+                    <div class="session_chair">{{ session.chair }}</div>
+                {%- endif -%}
+            </div>
+
+            {%- for talk in session.talks -%}
+                <div class="talk">
+                    <div class="icon {{ talk.type}}"></div>
+                    <div class="info">
+                        <div class="title">{{ talk.title }}</div>
+                        <div class="presenter">{{ talk.presenter }}</div>
+                    </div>
+                    <div class="abstract">概要</div>
+                    <div class="material">資料</div>
+                </div>
+            {%- endfor -%}
+        </div>
+    {%- endfor -%}
+{%- endfor -%}
+
+
+<h2>12:00-13:00 &nbsp; 昼休憩</h2>
+
+
+<h2>13:00-14:20 &nbsp; 特別講演</h2>
+<div class="session">
+    <div class="session_info">
+        <div class="session_title">柿沼太一先生「日本語データセットの構築・利用・公開に関する法的整理」</div>
+        <div class="session_chair">座長: 浅原正幸</div>
+    </div>
+        <p><strong>講演者: </strong><a href="https://storialaw.jp/lawyer/3041">柿沼太一先生（弁護士, STORIA法律事務所）</a><br/>専門分野はスタートアップ法務及びデータ・AI法務．現在，様々なジャンル（医療・製造業・プラットフォーム型等）のAIスタートアップを，顧問弁護士として多数サポートしている．経済産業省「AI・データ契約ガイドライン」検討会検討委員（～2018.3）．日本ディープラーニング協会（JDLA）有識者委員（2020.5～）．「第2回 IP BASE AWARD」知財専門家部門グランプリを受賞（2021）．</p>
+        <p><strong>概要</strong>: 日本語データセットの構築・利用・公開を適法に行うためには，法令上の制限及び契約・ライセンスの問題をクリアにする必要があります．前者については著作権法と個人情報保護法制が主として問題となり，後者については当該データセットに付されているライセンスの解釈の仕方，あるいはご自身が作成されたデータセットを公開する際にどのような条件で公開すべきかが問題となります．本講演においては，それらの問題の全体像についてご説明すると共に，よく問題となるケースについてもできるだけ具体的に説明をいたします．日本語データセットの構築と利用性の向上の一助になればと思います．</p>
+</div>
+
+
+
+{%- for divison in program_2 -%}
+<h2>{{ divison.time }} &nbsp; {{ divison.title }}</h2>
+    {%- for session in divison.sessions -%}
+        <div class="session">
+            <div class="session_info">
+                <div class="session_title">{{ session.title }}</div>
+                {%- if session.chair -%}
+                    <div class="session_chair">{{ session.chair }}</div>
+                {%- endif -%}
+            </div>
+
+            {%- for talk in session.talks -%}
+                <div class="talk">
+                    <div class="icon {{ talk.type}}"></div>
+                    <div class="info">
+                        <div class="title">{{ talk.title }}</div>
+                        <div class="presenter">{{ talk.presenter }}</div>
+                    </div>
+                    <div class="abstract">概要</div>
+                    <div class="material">資料</div>
+                </div>
+            {%- endfor -%}
+        </div>
+    {%- endfor -%}
+{%- endfor -%}
+
+
+
+<p>問い合わせ先 jed2022 (at) googlegroups.com</p>
+
+<p><a href="/">トップに戻る</a><p>

@@ -1,0 +1,123 @@
+[
+    {
+        "time":"14:30-15:20",
+        "title":"午後の部(1)",
+        "sessions":[
+            {
+                "title":"リレートーク: リーガル分野におけるデータセット構築・利活用の現状と展望",
+                "chair":"座長: 久本空海",
+                "talks":[
+                    {
+                        "type":"lt",
+                        "title":"法情報のオープンデータ化とその先の利活用への展望",
+                        "presenter":"株式会社Legalscape: 八木田樹",
+                        "abstract":""
+                    },
+                    {
+                        "type":"lt",
+                        "title":"フェアな合意をつくるための自然言語処理技術",
+                        "presenter":"MNTSQ株式会社",
+                        "abstract":""
+                    },
+                    {
+                        "type":"lt",
+                        "title":"権利義務認識のための契約書コーパス",
+                        "presenter":"株式会社LegalForce: 舟木類佳・永田祐介・末永幸平・森信介",
+                        "abstract":""
+                    },
+                    {
+                        "type":"normal",
+                        "title":"日本語判決書を用いたデータセットの構築",
+                        "presenter":"山田寛章"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time":"15:30-16:40",
+        "title":"午後の部(2)",
+        "sessions":[
+            {
+                "title":"日本語評価用データセットの構築と公開(3)",
+                "chair":"座長: 河原大輔",
+                "talks":[
+                    {
+                        "type":"normal",
+                        "title":"供述調書に現れる数量表現の推論テストセットの構築",
+                        "presenter":"小谷野華那・谷中瞳・峯島宏次・福田浩司・橋爪宏典・戸次大介",
+                        "abstract":""
+                    },
+                    {
+                        "type":"normal",
+                        "title":"JaNLI: 日本語の言語現象に基づく敵対的推論データセット",
+                        "presenter":"谷中瞳・峯島宏次",
+                        "abstract":""
+                    },
+                    {
+                        "type":"lt",
+                        "title":"日本語転移学習モデルにおける事前学習コーパスのフィルタリング",
+                        "presenter":"渡邊亞椰・河原大輔"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time":"16:50-18:00",
+        "title":"午後の部(3)",
+        "sessions":[
+            {
+                "title":"リレートーク: 統語解析データセット・モデルの公開",
+                "chair":"パネリスト: 浅原正幸・高岡一馬・松田寛",
+                "talks":[
+                    {
+                        "type":"lt",
+                        "title":"UD Japaneseの発展",
+                        "presenter":"",
+                        "abstract":""
+                    },
+                    {
+                        "type":"lt",
+                        "title":"形態素解析とトークナイザのこれから",
+                        "presenter":"",
+                        "abstract":""
+                    },
+                    {
+                        "type":"lt",
+                        "title":"短単位・長単位・文節・係り受け・Universal Dependencies",
+                        "presenter":"",
+                        "abstract":""
+                    }
+                ]
+            },
+            {
+                "title":"リレートーク: 日本語評価用データセットの研究と産業応用の加速",
+                "chair":"パネリスト: 河原大輔・久保隆宏・柴田知秀・高岡一馬・林部祐太・松田寛",
+                "talks":[
+                    {
+                        "type":"lt",
+                        "title":"産学連携によるデータセット構築公開の加速",
+                        "presenter":"",
+                        "abstract":""
+                    },
+                    {
+                        "type":"lt",
+                        "title":"KLUEなど海外の先進事例の紹介",
+                        "presenter":"",
+                        "abstract":""
+                    },
+                    {
+                        "type":"lt",
+                        "title":"日本語評価用データセットとその学習モデルが協調的な発展を遂げるために",
+                        "presenter":"",
+                        "abstract":""
+                    }
+                ]
+            },
+            {
+                "title":"クロージング"
+            }
+        ]
+    }
+]

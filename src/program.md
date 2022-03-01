@@ -1,6 +1,7 @@
 ---
 title: "JED2022 仮プログラム"
 layout: base.njk
+cssfile: program.css
 description: "言語処理学会第28回年次大会 併設ワークショップ JED2022 - 仮プログラム （プログラムの確定は3月初旬の予定）"
 ---
 
@@ -12,10 +13,60 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 ※ 🎤マークは一般発表</br>
 ※ ⚡マークはライトニングトーク
 
-## [09:00-10:40] 午前の部（１）
+## 09:00-10:40 午前の部(1) flexbox
+
+
+<div class="session">
+  <div class="session_title">日本語評価用データセットの構築と公開（１）</div>
+
+  <div class="talk">
+    <div class="icon normal"></div>
+    <div class="info">
+      <div class="title">JGLUE: 日本語言語理解ベンチマーク</div>
+      <div class="author">柴田知秀・栗原健太郎・河原大輔</div>
+    </div>
+    <div class="abstract">概要</div>
+    <div class="material">資料</div>
+  </div>
+
+  <div class="talk">
+    <div class="icon normal"></div>
+    <div class="info">
+      <div class="title">日本語版CoLAの構築の舞台裏</div>
+      <div class="author">染谷大河・大関洋平</div>
+    </div>
+    <div class="abstract">概要</div>
+    <div class="material">資料</div>
+  </div>
+
+  <div class="talk">
+    <div class="icon normal"></div>
+    <div class="info">
+      <div class="title">QAにおける評価用データセットの役割と日本語QAデータセットの必要性についての考察</div>
+      <div class="author">田保健士郎・小林景</div>
+    </div>
+    <div class="abstract">概要</div>
+    <div class="material">資料</div>
+  </div>
+
+  <div class="talk">
+    <div class="icon lt"></div>
+    <div class="info">
+      <div class="title">A Japanese Temporal Commonsense Reasoning Dataset</div>
+      <div class="author">Lis Pereira</div>
+    </div>
+    <div class="abstract">概要</div>
+    <div class="material">資料</div>
+  </div>
+</div>
+
+
+## 09:00-10:40 午前の部(1)
+
+
 <ul>
   <li>オープニング</span>
-  <li>本語評価用データセットの構築と公開（１）</li>
+  <li>日本語評価用データセットの構築と公開（１）</li>
   <ul>
     <li>座長: 河原大輔</li>
     <li class="talk">JGLUE: 日本語言語理解ベンチマーク（柴田知秀・栗原健太郎・河原大輔）</li>
@@ -25,7 +76,7 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
   </ul>
 </ul>
 
-## [10:50-12:00] 午前の部（２）
+## 10:50-12:00 午前の部(2)
 <ul>
   <li>日本語評価用データセットの構築と公開（２）</li>
   <ul>

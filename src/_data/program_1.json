@@ -1,0 +1,77 @@
+[
+    {
+        "time":"9:00-10:40",
+        "title":"午前の部(1)",
+        "sessions":[
+            {
+                "title":"オープニング"
+            },
+            {
+                "title":"日本語評価用データセットの構築と公開(1)",
+                "chair":"座長: 河原大輔",
+                "talks":[
+                    {
+                        "type":"normal",
+                        "title":"JGLUE: 日本語言語理解ベンチマーク",
+                        "presenter":"柴田知秀・栗原健太郎・河原大輔",
+                        "abstract":""
+                    },
+                    {
+                        "type":"normal",
+                        "title":"日本語版CoLAの構築の舞台裏",
+                        "presenter":"染谷大河・大関洋平",
+                        "abstract":""
+                    },
+                    {
+                        "type":"normal",
+                        "title":"QAにおける評価用データセットの役割と日本語QAデータセットの必要性についての考察",
+                        "presenter":"田保健士郎・小林景",
+                        "abstract":""
+                    },
+                    {
+                        "type":"lt",
+                        "title":"A Japanese Temporal Commonsense Reasoning Dataset",
+                        "presenter":"Lis Pereira",
+                        "abstract":""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "time":"10:50-12:00",
+        "title":"午前の部(2)",
+        "sessions":[
+            {
+                "title":"日本語評価用データセットの構築と公開(2)",
+                "chair":"座長: 河原大輔",
+                "talks":[
+                    {
+                        "type":"lt",
+                        "title":"Japanese Realistic Textual Entailment Corpus の紹介",
+                        "presenter":"林部祐太",
+                        "abstract":""
+                    },
+                    {
+                        "type":"lt",
+                        "title":"闘病ブログ記事に対する投与薬剤の奏功情報アノテーション",
+                        "presenter":"高山隼矢・荒瀬由紀・梶原智之・Chu Chenhui",
+                        "abstract":""
+                    },
+                    {
+                        "type":"normal",
+                        "title":"学習データセット改善によるアスペクト感情分析モデルの性能改善",
+                        "presenter":"亀谷聡",
+                        "abstract":""
+                    },
+                    {
+                        "type":"normal",
+                        "title":"日本語レシピデータセットの継続的な構築と複合的な利用",
+                        "presenter":"原島純・平松淳・深澤祐援・山口泰弘",
+                        "abstract":""
+                    }
+                ]
+            }
+        ]
+    }
+]

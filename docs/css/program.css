@@ -1,0 +1,85 @@
+:root {
+    --c-background: #F6EABE;
+    --c-text: #313131;
+    --c-text-link: #3C5186;
+}
+
+.session {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5em;
+    margin: 2em 0;
+}
+
+.session .session_info {
+    border-left: 5px solid var(--c-text);
+    padding-left: 0.4em;
+}
+.session .session_info .session_title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.session .session_info .session_chair {
+    margin-top: .5em;
+    font-size: .9em;
+}
+
+.talk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: .25em;
+    padding: 1em .5em;
+}
+
+
+.talk .icon {
+    font-size: 1.25em;
+    margin-right: 0.4em;
+}
+.talk .icon.normal::before {
+    content: "\1F3A4";
+}
+.talk .icon.lt::before {
+    content: "\26A1";
+}
+
+.talk .info {
+    width: 90%;
+}
+.talk .info .title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+.talk .info .presenter {
+    font-size: 0.9em;
+}
+
+.talk .abstract,
+.talk .material {
+    font-size: 0.75em;
+    text-align: center;
+    padding: .75em .5em;
+    border-radius: .25em;
+    background-color: var(--c-text);
+    color: var(--c-background);
+    width: 3.5em;
+}
+.talk .material {
+    opacity: .25;
+}
+.talk .abstract:hover {
+    opacity: 0.5;
+}
+
+
+.talk:hover {
+    background-color: var(--c-text);
+    color: var(--c-background);
+}
+.talk:hover .abstract,
+.talk:hover .material {
+    background-color: var(--c-background);
+    color: var(--c-text);
+}
