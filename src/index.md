@@ -87,11 +87,11 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
     </tr>
     <tr>
       <td class="program_time">17:10-17:40</td>
-      <td><a href="#">リレートーク：統語解析データセット・モデルの公開</a></td>
+      <td><a href="#">リレートーク: 統語解析データセット・モデルの公開</a></td>
     </tr>
     <tr>
       <td class="program_time">17:40-18:10</td>
-      <td><a href="#">リレートーク：日本語評価用データセットの研究と産業応用の加速</a></td>
+      <td><a href="#">リレートーク: 日本語評価用データセットの研究と産業応用の加速</a></td>
     </tr>
     <tr>
       <td class="program_time">18:10-18:20</td>

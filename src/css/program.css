@@ -5,24 +5,17 @@
 }
 
 .session {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1em;
-    margin: 2em 0;
+    margin-bottom: 2em;
+}
+.session h2 {
+    line-height: 1.4em;
 }
 
-.session .session_info {
-    border-left: 5px solid var(--c-text);
-    padding-left: .4em;
-    margin-bottom: .5em;
-}
-.session .session_info .session_title {
-    font-size: 1.25em;
-    font-weight: bold;
-}
-.session .session_info .session_chair {
-    margin-top: .5em;
-    font-size: .9em;
+.talk_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5em;
+    margin: 1em 0;
 }
 
 .talk {
@@ -32,7 +25,6 @@
     column-gap: .25em;
     padding: .5em .5em;
 }
-
 
 .talk .icon {
     font-size: 1.25em;
@@ -45,7 +37,6 @@
 .talk .icon.lt::before {
     content: "\26A1";
 }
-
 .talk .info {
     width: 90%;
 }
@@ -66,21 +57,18 @@
     border-radius: .25em;
     background-color: var(--c-text);
     color: var(--c-background);
-    width: 3.5em;
+    width: 3.6em;
     cursor: pointer;
-}
-.talk .btn_abstract.disabled {
-    opacity: 0.25;
-}
-.talk .btn_material {
-    opacity: .25;
 }
 .talk .btn_abstract:hover {
     opacity: 0.5;
 }
+.talk .btn_material {
+    opacity: .25;
+}
 
 
-/* .talk:hover {
+.talk:hover {
     background-color: var(--c-text);
     color: var(--c-background);
 }
@@ -88,7 +76,7 @@
 .talk:hover .btn_material {
     background-color: var(--c-background);
     color: var(--c-text);
-} */
+}
 
 
 /* 概要のトグル */
