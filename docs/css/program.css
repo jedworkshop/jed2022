@@ -37,6 +37,7 @@
 .talk .icon {
     font-size: 1.25em;
     margin-right: 0.4em;
+    width: 1em;
 }
 .talk .icon.normal::before {
     content: "\1F3A4";
