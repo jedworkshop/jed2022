@@ -92,7 +92,7 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 - 河原大輔 <small>早稲田大学</small>
 - 久保隆宏 <small>アマゾンウェブサービスジャパン合同会社</small>
 - 柴田知秀 <small>ヤフー株式会社</small>
-- 高岡一馬 <small>株式会社ワークスアプリケーションズ・エンタープライズ</small>
+- 高岡一馬 <small>株式会社ワークスアプリケーションズ・システムズ</small>
 - 林部祐太 <small>株式会社リクルート Megagon Labs</small>
 - 久本空海 <small>株式会社Legalscape</small>
 - 松田寛 <small>株式会社リクルート Megagon Labs</small>
