@@ -1,4 +1,4 @@
-<div class="session">
+<div class="session" id="{{ session_data.title }}">
     <h2>{{ session_data.title }}</br><small>{{ session_data.time }}</small> &nbsp; <small>{{ session_data.chair }}</small></h2>
 
     <div class="talk_list">
@@ -9,7 +9,7 @@
                     <div class="title">{{ talk.title }}</div>
                     <div class="presenter">{{ talk.presenter }}</div>
                 </div>
-                <div class="btn_abstract{{ ' disabled' if not talk.abstract }}" data-target=".abstract.talk_{{ talk.id }}">概要</div>
+                <div class="btn_abstract" data-target=".abstract.talk_{{ talk.id }}">概要</div>
                 <div class="btn_material">資料</div>
             </div>
             <div class="abstract talk_{{ talk.id }}">
