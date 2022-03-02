@@ -68,17 +68,6 @@
 }
 
 
-.talk:hover {
-    background-color: var(--c-text);
-    color: var(--c-background);
-}
-.talk:hover .btn_abstract,
-.talk:hover .btn_material {
-    background-color: var(--c-background);
-    color: var(--c-text);
-}
-
-
 /* 概要のトグル */
 .abstract {
   display: block;
