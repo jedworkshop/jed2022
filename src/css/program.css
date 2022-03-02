@@ -67,6 +67,25 @@
     opacity: .25;
 }
 
+.program_legend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5em;
+}
+.btn_abstract_all {
+    font-size: 0.75em;
+    text-align: center;
+    padding: .75em .5em;
+    border-radius: .25em;
+    background-color: var(--c-text);
+    color: var(--c-background);
+    width: 11em;
+    cursor: pointer;  
+}
+.btn_abstract_all:hover {
+    opacity: 0.5;
+}
 
 /* 概要のトグル */
 .abstract {
