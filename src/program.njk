@@ -2,6 +2,7 @@
 title: "JED2022 プログラム"
 layout: base.njk
 cssfile: program.css
+jsfile: collapsible.js
 description: "言語処理学会第28回年次大会 併設ワークショップ JED2022 - プログラム"
 ---
 
@@ -28,13 +29,16 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 
             {%- for talk in session.talks -%}
                 <div class="talk">
-                    <div class="icon {{ talk.type}}"></div>
+                    <div class="icon {{ talk.type }}"></div>
                     <div class="info">
                         <div class="title">{{ talk.title }}</div>
                         <div class="presenter">{{ talk.presenter }}</div>
                     </div>
-                    <div class="abstract">概要</div>
-                    <div class="material">資料</div>
+                    <div class="btn_abstract{{ ' disabled' if not talk.abstract }}" data-target=".abstract.talk_{{ talk.id }}">概要</div>
+                    <div class="btn_material">資料</div>
+                </div>
+                <div class="abstract talk_{{ talk.id }}">
+                    {{ talk.abstract | safe }}
                 </div>
             {%- endfor -%}
         </div>
@@ -70,13 +74,16 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 
             {%- for talk in session.talks -%}
                 <div class="talk">
-                    <div class="icon {{ talk.type}}"></div>
+                    <div class="icon {{ talk.type }}"></div>
                     <div class="info">
                         <div class="title">{{ talk.title }}</div>
                         <div class="presenter">{{ talk.presenter }}</div>
                     </div>
-                    <div class="abstract">概要</div>
-                    <div class="material">資料</div>
+                    <div class="btn_abstract{{ ' disabled' if not talk.abstract }}" data-target=".abstract.talk_{{ talk.id }}">概要</div>
+                    <div class="btn_material">資料</div>
+                </div>
+                <div class="abstract talk_{{ talk.id }}">
+                    {{ talk.abstract | safe }}
                 </div>
             {%- endfor -%}
         </div>
