@@ -67,6 +67,10 @@
     opacity: .25;
 }
 
+.session.keynote p {
+    font-size: 0.9em;
+}
+
 .program_legend {
     display: flex;
     align-items: center;
