@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
     <link rel="stylesheet" href="{{ '/css/base.css' | url }}">
+    {%- if cssfile -%}
+        <link rel="stylesheet" href="{{ ('/css/' + cssfile) | url }}">
+    {%- endif -%}
     <link rel="icon" href="{{ '/img/icon.svg' | url }}" type="image/svg+xml">
 
     <title>{{ title }} | NLP2022 Workshop on Japanese Evaluation Dataset</title>
@@ -30,5 +33,8 @@
         {{ content | safe }}
     </main>
     <footer><a href="https://github.com/jedworkshop/">Copyright &copy; Japanese Evaluation Dataset Workshop. All rights reserved.</a></footer>
+    {%- if jsfile -%}
+        <script src="{{ ('/js/' + jsfile) | url }}"></script>
+    {%- endif -%}
 </body>
 </html>

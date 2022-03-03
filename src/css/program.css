@@ -1,0 +1,114 @@
+:root {
+    --c-background: #F6EABE;
+    --c-text: #313131;
+    --c-text-link: #3C5186;
+}
+
+.session {
+    margin-bottom: 2em;
+}
+.session h2 {
+    line-height: 1.4em;
+}
+
+.talk_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5em;
+    margin: 1em 0;
+}
+
+.talk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: .25em;
+    padding: .5em .5em;
+}
+
+.talk .icon {
+    font-size: 1.25em;
+    margin-right: 0.4em;
+    width: 1em;
+}
+.talk .icon.normal::before {
+    content: "\1F3A4";
+}
+.talk .icon.lt::before {
+    content: "\26A1";
+}
+.talk .info {
+    width: 90%;
+}
+.talk .info .title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+.talk .info .presenter {
+    font-size: 0.9em;
+}
+
+.talk .btn_abstract,
+.talk .btn_material {
+    font-size: 0.75em;
+    text-align: center;
+    padding: .75em .5em;
+    border-radius: .25em;
+    background-color: var(--c-text);
+    color: var(--c-background);
+    width: 3.6em;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.talk .btn_abstract:hover {
+    opacity: 0.5;
+}
+.talk .btn_material {
+    opacity: .25;
+}
+
+.session.keynote p {
+    font-size: 0.9em;
+}
+
+.program_legend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5em;
+}
+.btn_abstract_all {
+    font-size: 0.75em;
+    text-align: center;
+    padding: .75em .5em;
+    border-radius: .25em;
+    background-color: var(--c-text);
+    color: var(--c-background);
+    width: 11em;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.btn_abstract_all:hover {
+    opacity: 0.5;
+}
+
+/* 概要のトグル */
+.abstract {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s cubic-bezier(0, 1, 0, 1);
+
+  margin-left: 2.75em;
+  font-size: 0.9em;
+}
+.abstract.show {
+    max-height: 50em;
+    transition: max-height .25s ease-in-out;
+    margin-bottom: 1.5em;
+}

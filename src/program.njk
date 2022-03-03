@@ -1,0 +1,106 @@
+---
+title: "JED2022 プログラム"
+layout: base.njk
+cssfile: program.css
+jsfile: collapsible.js
+description: "言語処理学会第28回年次大会 併設ワークショップ JED2022 - プログラム"
+---
+
+<h1>JED2022 プログラム</h1>
+
+<p>2022年3月18日, オンライン開催</p>
+
+<table id="program_table">
+  <tbody>
+    <tr>
+      <td class="program_time">9:00-9:10</td>
+      <td>オープニング</td>
+    </tr>
+    <tr>
+      <td class="program_time">9:10-10:30</td>
+      <td><a href="#日本語評価用データセットの構築と公開(1)">日本語評価用データセットの構築と公開(1)</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">10:40-12:00</td>
+      <td><a href="#日本語評価用データセットの構築と公開(2)">日本語評価用データセットの構築と公開(2)</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">12:00-13:00</td>
+      <td>昼休憩</td>
+    </tr>
+    <tr>
+      <td class="program_time">13:00-14:20</td>
+      <td><a href="#特別講演">特別講演: 日本語データセットの構築・利用・公開に関する法的整理</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">14:30-15:20</td>
+      <td><a href="#リーガル分野におけるデータセット構築・利活用の現状と展望">リーガル分野におけるデータセット構築・利活用の現状と展望</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">15:30-17:00</td>
+      <td><a href="#日本語評価用データセットの構築と公開(3)">日本語評価用データセットの構築と公開(3)</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">17:10-17:35</td>
+      <td><a href="#リレートーク: 形態素解析辞書・統語解析データセットの公開">リレートーク: 統語解析データセット・モデルの公開</a></td>
+    </tr>
+    <tr>
+      <td class="program_time">17:35-18:00</td>
+      <td><a href="#総合討論・クロージング">総合討論・クロージング</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div class="program_legend">
+  <div>
+    <small>🎤 一般発表</small><br/>
+    <small>⚡ ライトニングトーク</small>
+  </div>
+  <div>
+    <div class="btn_abstract_all" data-target=".abstract" data-action="open">全ての概要を開く</div>
+  </div>
+</div>
+
+
+{% set session_data = session_1 %}
+{% include "session.njk" %}
+
+
+{% set session_data = session_2 %}
+{% include "session.njk" %}
+
+
+<div class="session keynote" id="特別講演">
+  <h2>特別講演: 日本語データセットの構築・利用・公開に関する法的整理<br/><small>13:00-14:20</small> &nbsp; <small>座長: 浅原正幸 (国語研)</small></h2>
+  <p><strong>講演者:</strong> <a href="https://storialaw.jp/lawyer/3041">柿沼太一先生（弁護士, STORIA法律事務所）</a><br/>専門分野はスタートアップ法務及びデータ・AI法務．現在，様々なジャンル（医療・製造業・プラットフォーム型等）のAIスタートアップを，顧問弁護士として多数サポートしている．経済産業省「AI・データ契約ガイドライン」検討会検討委員（～2018.3）．日本ディープラーニング協会（JDLA）有識者委員（2020.5～）．「第2回 IP BASE AWARD」知財専門家部門グランプリを受賞（2021）．</p>
+  <p><strong>概要:</strong> 日本語データセットの構築・利用・公開を適法に行うためには，法令上の制限及び契約・ライセンスの問題をクリアにする必要があります．前者については著作権法と個人情報保護法制が主として問題となり，後者については当該データセットに付されているライセンスの解釈の仕方，あるいはご自身が作成されたデータセットを公開する際にどのような条件で公開すべきかが問題となります．本講演においては，それらの問題の全体像についてご説明すると共に，よく問題となるケースについてもできるだけ具体的に説明をいたします．日本語データセットの構築と利用性の向上の一助になればと思います．</p>
+</div>
+
+{% set session_data = session_3 %}
+{% include "session.njk" %}
+
+{% set session_data = session_4 %}
+{% include "session.njk" %}
+
+<div class="session" id="リレートーク: 形態素解析辞書・統語解析データセットの公開">
+  <h2>リレートーク: 形態素解析辞書・統語解析データセットの公開<br/><small>17:10-17:35</small> &nbsp; <small>座長: 松田寛 (Megagon Labs)</small></h2>
+  <strong>パネリスト:</strong> 浅原正幸 (国語研), 高岡一馬 (ワークス), 松田寛 (Megagon Labs)
+  <ul>
+    <li>語彙データベースとしてのSudachi辞書</li>
+    <li>UD Japaneseの発展</li>
+  </ul>
+</div>
+
+<div class="session" id="総合討論・クロージング">
+  <h2>総合討論・クロージング<br/><small>17:35-18:00</small> &nbsp; <small>座長: 柴田知秀 (ヤフー)</small></h2>
+  <strong>パネリスト:</strong> 浅原正幸 (国語研), 河原大輔 (早大), 久保隆宏 (AWS), 柴田知秀 (ヤフー), 高岡一馬 (ワークス), 林部祐太, 松田寛 (Megagon Labs)
+  <ul>
+    <li>事前募集質問についてのディスカッション</li>
+    <li>日本語評価用データセットとその学習モデルが協調的な発展を遂げるために</li>
+    <li>クロージング</li>
+  </ul>
+</div>
+
+
+<p><a href="/">トップに戻る</a><p>

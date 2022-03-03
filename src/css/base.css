@@ -149,19 +149,36 @@ main h3:hover .heading-anchor {
     text-decoration: underline;
 }
 
-.expired {
-    color: #777;
+.expired,.expired a {
     opacity: 0.5;
 }
 
-ul li {
-    margin-top: 0.6em;
+
+/* プログラムテーブル */
+table#program_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
 }
-ul li.talk {
-    list-style-type: "\1F3A4";
-    padding-left: 0.5em;
+#program_table tr {
+    border-bottom: 1px solid rgba(31,31,31,.25);
 }
-ul li.lt {
-    list-style-type: "\26A1";
-    padding-left: 0.5em;
+#program_table tr:last-child {
+    border-bottom: 0;
+}
+#program_table tr:hover {
+    background-color: rgba(31,31,31,.1);
+}
+#program_table td {
+    padding: 1em .5em;
+}
+#program_table td.program_time {
+    text-align: left;
+    width: 15%;
+}
+#program_table td a {
+    text-decoration: none;
+}
+#program_table td a:hover {
+    text-decoration: underline;
 }
