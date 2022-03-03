@@ -91,7 +91,7 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
     </tr>
     <tr>
       <td class="program_time">17:35-18:00</td>
-      <td><a href="program/#リレートーク: 日本語評価用データセットの研究と産業応用の加速">リレートーク: 日本語評価用データセットの研究と産業応用の加速</a></td>
+      <td><a href="program/#総合討論・クロージング">総合討論・クロージング</a></td>
     </tr>
   </tbody>
 </table>
