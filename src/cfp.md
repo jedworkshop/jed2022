@@ -103,4 +103,4 @@ Email: jed2022 (at) googlegroups.com
 
 問い合わせ先 jed2022 (at) googlegroups.com
 
-[トップに戻る](/)
+[トップに戻る](../)
