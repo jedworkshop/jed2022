@@ -182,3 +182,26 @@ table#program_table {
 #program_table td a:hover {
     text-decoration: underline;
 }
+
+
+/* Twitter情報 */
+.twitter_info {
+    margin: 2em 0;
+    font-weight: bold;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.2em;
+}
+.twitter_info a {
+    margin-left: .25em;
+    background-color: var(--c-text);
+    padding: .25em .4em;
+    border-radius: .25em;
+
+    text-decoration: none;
+    color: var(--c-background);
+}
+.twitter_info a:hover {
+    text-decoration: underline;
+}

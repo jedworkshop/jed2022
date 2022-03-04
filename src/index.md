@@ -7,6 +7,13 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 # 日本語における評価用データセットの構築と利用性の向上
 2022年3月18日, オンライン開催
 
+
+<div class="twitter_info">
+<div class="hashtag">Twitterハッシュタグ<a href="https://twitter.com/hashtag/JED2022" target="_blank" rel="noreferrer">#JED2022</a></div>
+<div class="accoutn">公式アカウント<a href="https://twitter.com/jedws" target="_blank" rel="noreferrer">@jedws</a></div>
+</div>
+
+
 ## JED2022ワークショップスポンサー
 <div id="sponsors">
   <div class="sponsor-item">
