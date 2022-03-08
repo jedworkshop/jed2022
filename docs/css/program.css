@@ -91,8 +91,8 @@
     justify-content: space-between;
     margin-top: 2.5em;
 }
-.program_legend .icons {
-    font-size: 0.75em;
+.program_legend .icons, .program_legend .caveat {
+    font-size: 0.8em;
 }
 .btn_abstract_all {
     font-size: 0.75em;
