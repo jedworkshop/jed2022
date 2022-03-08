@@ -37,6 +37,9 @@
 .talk .icon.lt::before {
     content: "\26A1";
 }
+.talk .icon.panel::before {
+    content: "\1F4AC";
+}
 .talk .info {
     width: 90%;
 }
@@ -70,7 +73,11 @@
 .talk .btn_abstract:hover {
     opacity: 0.5;
 }
-.talk .btn_material {
+.talk .disabled {
+    opacity: .25;
+    cursor: auto;
+}
+.talk .disabled:hover {
     opacity: .25;
 }
 
@@ -83,6 +90,9 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 2.5em;
+}
+.program_legend .icons {
+    font-size: 0.75em;
 }
 .btn_abstract_all {
     font-size: 0.75em;

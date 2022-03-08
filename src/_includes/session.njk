@@ -10,12 +10,18 @@
                     <div class="title">{{ talk.title }}</div>
                     <div class="presenter">{{ talk.presenter }}</div>
                 </div>
-                <div class="btn_abstract" data-target=".abstract.talk_{{ talk.id }}">概要</div>
-                <div class="btn_material">資料</div>
+                {% if talk.abstract %}
+                    <div class="btn_abstract" data-target=".abstract.talk_{{ talk.id }}">概要</div>
+                {% else %}
+                    <div class="btn_abstract disabled">概要</div>
+                {% endif %}
+                <div class="btn_material disabled">資料</div>
             </div>
-            <div class="abstract talk_{{ talk.id }}">
-                {{ talk.abstract | safe }}
-            </div>
+            {% if talk.abstract %}
+                <div class="abstract talk_{{ talk.id }}">
+                    {{ talk.abstract | safe }}
+                </div>
+            {% endif %}
     {%- endfor -%}
     </div>
 </div>
