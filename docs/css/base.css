@@ -192,6 +192,7 @@ table#program_table {
     display: flex;
     flex-direction: row;
     column-gap: 1.2em;
+    line-height: 1.6em;
 }
 .twitter_info a {
     margin-left: .25em;
