@@ -40,20 +40,24 @@
 .talk .info {
     width: 90%;
 }
+.talk .info .time {
+    font-size: .75em;
+    opacity: .9;
+}
 .talk .info .title {
     font-size: 1em;
     font-weight: bold;
     margin-bottom: 0.25em;
 }
 .talk .info .presenter {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .talk .btn_abstract,
 .talk .btn_material {
     font-size: 0.75em;
     text-align: center;
-    padding: .75em .5em;
+    padding: 1em .5em;
     border-radius: .25em;
     background-color: var(--c-text);
     color: var(--c-background);
