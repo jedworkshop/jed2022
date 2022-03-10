@@ -81,6 +81,14 @@
     opacity: .25;
 }
 
+.talk.heading .btn_abstract, .talk.heading .btn_material {
+    opacity: 0;
+}
+.talk.heading .title {
+    font-style: italic;
+    font-weight: normal;
+}
+
 .session.keynote p {
     font-size: 0.9em;
 }

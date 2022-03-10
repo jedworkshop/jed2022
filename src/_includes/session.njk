@@ -3,7 +3,7 @@
 
     <div class="talk_list">
         {%- for talk in session_data.talks -%}
-            <div class="talk">
+            <div class="talk {{ talk.type }}">
                 <div class="icon {{ talk.type }}"></div>
                 <div class="info">
                     <div class="time">{{ talk.time }}</div>
