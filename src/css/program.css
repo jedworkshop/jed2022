@@ -37,8 +37,15 @@
 .talk .icon.lt::before {
     content: "\26A1";
 }
+.talk .icon.panel::before {
+    content: "\1F4AC";
+}
 .talk .info {
     width: 90%;
+}
+.talk .info .time {
+    font-size: .75em;
+    opacity: .9;
 }
 .talk .info .title {
     font-size: 1em;
@@ -46,14 +53,14 @@
     margin-bottom: 0.25em;
 }
 .talk .info .presenter {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .talk .btn_abstract,
 .talk .btn_material {
     font-size: 0.75em;
     text-align: center;
-    padding: .75em .5em;
+    padding: 1em .5em;
     border-radius: .25em;
     background-color: var(--c-text);
     color: var(--c-background);
@@ -66,8 +73,20 @@
 .talk .btn_abstract:hover {
     opacity: 0.5;
 }
-.talk .btn_material {
+.talk .disabled {
     opacity: .25;
+    cursor: auto;
+}
+.talk .disabled:hover {
+    opacity: .25;
+}
+
+.talk.heading .btn_abstract, .talk.heading .btn_material {
+    opacity: 0;
+}
+.talk.heading .title {
+    font-style: italic;
+    font-weight: normal;
 }
 
 .session.keynote p {
@@ -79,6 +98,9 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 2.5em;
+}
+.program_legend .icons, .program_legend .caveat {
+    font-size: 0.8em;
 }
 .btn_abstract_all {
     font-size: 0.75em;
