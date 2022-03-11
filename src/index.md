@@ -74,7 +74,7 @@ NLP2022参加者限定Slackワークスペースで、当ワークショップ�
 
 ### Slackへの参加方法
 
-1. [NLP2022参加者限定サイト](https://www.anlp.jp/nlp2022/program_online/)へアクセス（認証情報はメールで送付されています: [参考](https://twitter.com/nlp2022/status/1502056706750119936)）
+1. [NLP2022参加者限定サイト](https://anlp.jp/nlp2022/#program_online)へアクセス（認証情報はメールで送付されています: [参考](https://twitter.com/nlp2022/status/1502056706750119936)）
 2. 参加者限定サイトのにある「Slackワークスペース招待リンク」からNLP2022 Slackへ参加
 3. Slackチャンネル「#32-workshop2-日本語における評価用データセットの構築と利用性の向上」へ参加
 
