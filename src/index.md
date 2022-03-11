@@ -62,7 +62,11 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 
 NLP2022参加者限定Slackワークスペースで、当ワークショップのチャンネルを用意しています．ぜひご参加ください．
 
-<span class="slack-channel">#32-workshop2-日本語における評価用データセットの構築と利用性の向上</span>
+<div class="slack-channel-container">
+<span class="slack-channel">
+#32-workshop2-日本語における評価用データセットの構築と利用性の向上
+</span>
+</div>
 
 - 当日は、このチャンネルで事前に書き込まれた質問を優先して取り上げます
 - 発表の Zoom URL を、チャンネル説明およびピン留め書き込みとして3/17午後に共有します

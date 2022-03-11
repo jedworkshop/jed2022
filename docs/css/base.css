@@ -207,6 +207,9 @@ table#program_table {
     text-decoration: underline;
 }
 
+.slack-channel-container {
+    text-align: center;
+}
 .slack-channel {
     background-color: var(--c-text);
     color: var(--c-background);
