@@ -206,3 +206,15 @@ table#program_table {
 .twitter_info a:hover {
     text-decoration: underline;
 }
+
+.slack-channel-container {
+    text-align: center;
+}
+.slack-channel {
+    background-color: var(--c-text);
+    color: var(--c-background);
+    font-weight: bold;
+    padding: .3em .6em;
+    border-radius: .25em;
+    line-height: 2em;
+}
