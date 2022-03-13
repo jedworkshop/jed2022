@@ -142,9 +142,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-}
-.sponsor-item-small {
-    margin-bottom: 1.5em;
+    row-gap: 1.5em;
+    margin-top: 3em;
 }
 .sponsor-item-small-blank {
     width: 194px;
