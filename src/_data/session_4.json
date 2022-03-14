@@ -31,6 +31,7 @@
       "type": "lt",
       "title": "Japanese Realistic Textual Entailment Corpus の紹介",
       "presenter": "林部祐太 (Megagon Labs)",
+      "material": "jed2022_d-3_林部祐太.pdf",
       "abstract": "オンラインサービスにおけるクチコミは，サービスや製品の利用を検討しているユーザには不可欠な存在です．<br/>クチコミには様々な感想・意見・要望が含まれていますが，大量のクチコミから欲しい情報を素早く得るためには，知識の自動抽出や整理が必要です．<br/>本LTではそれを行うために構築・公開したJapanese Realistic Textual Entailment Corpus (JRTEコーパス) を紹介します．"
     },
     {
