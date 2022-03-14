@@ -11,6 +11,10 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/img");
     eleventyConfig.addWatchTarget("./src/img");
 
+    eleventyConfig.addPassthroughCopy("./src/materials");
+    eleventyConfig.addWatchTarget("./src/materials");
+
+
     const markdownLib = markdownIt({html: true}).use(markdownItAnchor, {
         permalink: markdownItAnchor.permalink.linkInsideHeader({
             symbol: '<span class="heading-anchor" aria-hidden="true">¶</span>',
