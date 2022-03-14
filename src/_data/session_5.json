@@ -1,0 +1,20 @@
+{
+    "time": "17:10-17:35",
+    "title": "リレートーク: 形態素解析辞書・統語解析データセットの公開",
+    "chair": "座長: 松田寛 (Megagon Labs)",
+    "panelists": "浅原正幸 (国語研), 高岡一馬 (ワークス), 松田寛 (Megagon Labs)",
+    "talks": [
+      {
+        "id": "e-1",
+        "type": "panel",
+        "title": "語彙データベースとしての Sudachi 辞書",
+        "presenter": "高岡一馬 (ワークス)"
+      },
+      {
+        "id": "e-2",
+        "type": "panel",
+        "title": "UD Japanese の発展",
+        "presenter": "浅原正幸 (国語研)"
+      }
+    ]
+  }
