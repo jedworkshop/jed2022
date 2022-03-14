@@ -1,5 +1,5 @@
 <div class="session" id="{{ session_data.title }}">
-    <h2>{{ session_data.title }}</br><small>{{ session_data.time }}</small> &nbsp; <small>{{ session_data.chair }}</small></h2>
+    <h2>{{ session_data.title }}</br><small>{{ session_data.time }}</small> &nbsp; <small>座長: {{ session_data.chair }}</small></h2>
     {% if session_data.panelists %}
         <div class="panelists">
             <strong>パネリスト:</strong> {{ session_data.panelists }}
