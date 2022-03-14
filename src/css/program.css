@@ -70,7 +70,8 @@
     -moz-user-select: none;
     -webkit-user-select: none;
 }
-.talk .btn_abstract:hover {
+.talk .btn_abstract:hover,
+.talk .btn_material:hover {
     opacity: 0.5;
 }
 .talk .disabled {

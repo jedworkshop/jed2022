@@ -15,7 +15,11 @@
                 {% else %}
                     <div class="btn_abstract disabled">概要</div>
                 {% endif %}
-                <div class="btn_material disabled">資料</div>
+                {% if talk.material %}
+                    <a href="{{ ('/materials/' + talk.material) | url }}" target="_blank" rel="noreferrer"><div class="btn_material">資料</div></a>
+                {% else %}
+                    <div class="btn_material disabled">資料</div>
+                {% endif %}
             </div>
             {% if talk.abstract %}
                 <div class="abstract talk_{{ talk.id }}">
