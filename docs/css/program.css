@@ -74,6 +74,9 @@
     -moz-user-select: none;
     -webkit-user-select: none;
 }
+.talk a {
+    text-decoration: none;
+}
 .talk .btn_abstract:hover,
 .talk .btn_material:hover {
     opacity: 0.5;
