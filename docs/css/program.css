@@ -8,7 +8,11 @@
     margin-bottom: 2em;
 }
 .session h2 {
-    line-height: 1.4em;
+    line-height: 1.2em;
+    font-size: 1.2em;
+}
+.session h2 small {
+    font-size: .75em;
 }
 
 .talk_list {
@@ -88,10 +92,6 @@
 .talk.heading .title {
     font-style: italic;
     font-weight: normal;
-}
-
-.session.keynote p {
-    font-size: 0.9em;
 }
 
 .program_legend {
