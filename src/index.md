@@ -50,9 +50,9 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
 
 **2021.03.18** ワークショップは終了しました．沢山の方々のご参加ありがとうございました！
 
-発表資料は[プログラムページ](program)で一般公開しています．
+また今後も様々なイベントを開催していく予定です．**公式Twitterアカウント<a href="https://twitter.com/jedws" target="_blank" rel="noreferrer">@jedws</a>** などをご覧ください．
 
-[NLP2023 OKINAWA](https://twitter.com/anlpmeeting)に合わせ、**JED2023**の開催を目指しています．来年は沖縄科学技術大学院大学（OIST）でお会いしましょう！
+[NLP2023 OKINAWA](https://twitter.com/anlpmeeting)に合わせ，**JED2023**の開催を目指しています．来年は沖縄科学技術大学院大学（OIST）でお会いしましょう！
 
 
 ## 趣旨
