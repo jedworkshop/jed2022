@@ -46,26 +46,14 @@ description: "言語処理学会第28回年次大会 併設ワークショップ
   </div>
 </div>
 
+## What's New
 
-## NLP2022 Slack チャンネル
+**2021.03.18** ワークショップは終了しました．沢山の方々のご参加ありがとうございました！
 
-NLP2022参加者限定Slackワークスペースで、当ワークショップのチャンネルを用意しています．ぜひご参加ください．
+また今後も様々なイベントを開催していく予定です．**公式Twitterアカウント<a href="https://twitter.com/jedws" target="_blank" rel="noreferrer">@jedws</a>** などをご覧ください．
 
-<div class="slack-channel-container">
-<span class="slack-channel">
-#32-workshop2-日本語における評価用データセットの構築と利用性の向上
-</span>
-</div>
+[NLP2023 OKINAWA](https://twitter.com/anlpmeeting)に合わせ，**JED2023**の開催を目指しています．来年は沖縄科学技術大学院大学（OIST）でお会いしましょう！
 
-- **発表の Zoom URL** を、チャンネル説明およびピン留め書き込みとして共有しています
-- **発表への質問** を、チャンネルで募集しています（**Zoomのチャット機能は使用できません**）
-
-
-### Slackへの参加方法
-
-1. [NLP2022参加者限定サイト](https://anlp.jp/nlp2022/#program_online)へアクセス（認証情報はメールで送付されています: [参考](https://twitter.com/nlp2022/status/1502056706750119936)）
-2. 参加者限定サイトのにある「*Slackワークスペース招待リンク*」からNLP2022 Slackへ参加
-3. Slackチャンネル「*#32-workshop2-日本語における評価用データセットの構築と利用性の向上*」へ参加
 
 ## 趣旨
 **[言語処理学会第28回年次大会（NLP2022）](https://www.anlp.jp/nlp2022/) 併設ワークショップ - 日本語における評価用データセットの構築と利用性の向上（JED2022）**
@@ -133,7 +121,10 @@ NLP2022参加者限定Slackワークスペースで、当ワークショップ�
 
 
 ## 参加申し込み
-[言語処理学会第28回年次大会（NLP2022）](https://www.anlp.jp/nlp2022/)へ参加登録することで，当ワークショップにもご参加いただけます．
+
+*ワークショップは開催終了しました．*
+
+<span class="expired">[言語処理学会第28回年次大会（NLP2022）](https://www.anlp.jp/nlp2022/)へ参加登録することで，当ワークショップにもご参加いただけます．</span>
 
 
 ## 発表募集要項
@@ -141,6 +132,27 @@ NLP2022参加者限定Slackワークスペースで、当ワークショップ�
 *発表募集は終了しました．*
 
 <span class="expired">[発表募集要項の詳細はこちらから](cfp)</span>
+
+
+## NLP2022 Slack チャンネル
+
+<span class="expired">NLP2022参加者限定Slackワークスペースで、当ワークショップのチャンネルを用意しています．ぜひご参加ください．</span>
+
+<div class="slack-channel-container expired">
+<span class="slack-channel">
+#32-workshop2-日本語における評価用データセットの構築と利用性の向上
+</span>
+</div>
+
+- <span class="expired">**発表の Zoom URL** を、チャンネル説明およびピン留め書き込みとして共有しています</span>
+- <span class="expired">**発表への質問** を、チャンネルで募集しています（**Zoomのチャット機能は使用できません**）</span>
+
+
+### Slackへの参加方法
+
+1. <span class="expired">[NLP2022参加者限定サイト](https://anlp.jp/nlp2022/#program_online)へアクセス（認証情報はメールで送付されています: [参考](https://twitter.com/nlp2022/status/1502056706750119936)）</span>
+2. <span class="expired">参加者限定サイトのにある「*Slackワークスペース招待リンク*」からNLP2022 Slackへ参加</span>
+3. <span class="expired">Slackチャンネル「*#32-workshop2-日本語における評価用データセットの構築と利用性の向上*」へ参加</span>
 
 
 ## スケジュール
@@ -154,7 +166,7 @@ NLP2022参加者限定Slackワークスペースで、当ワークショップ�
 - <span class="expired">2022/02/28 (月)	ライトニングトーク申込締切</span>
 - <span class="expired">2022/03/11 (金) 正午まで	NLP2022直前参加登録締切</span>
 - <span class="expired">2022/03/14 (月)	発表スライド提出期限</span>
-- 2022/03/18 (金)	JED2022 ワークショップ当日
+- <span class="expired">2022/03/18 (金)	JED2022 ワークショップ当日</span>
 
 ## 提案者
 - 浅原正幸 <small>国立国語研究所</small>
